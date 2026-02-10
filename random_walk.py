@@ -10,4 +10,10 @@ def change_direction():
      tim.right(random.choice(direction))
 
 
+while True:
+    tim.width(10)
+    tim.forward(20)
+    change_direction()
+    tim.color(random.choice(colors))
+
 
